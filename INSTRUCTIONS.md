@@ -45,6 +45,33 @@ npm i react-icons@4.12.0
 
 ...
 
+### Database & Prisma Setup
+
+NeonDB: https://neon.tech/ - login - create service
+
+```
+npm i -D prisma
+npm i @prisma/client
+npx prisma init
+npx prisma generate
+npx prisma db push
+npx prisma studio
+npm i @auth/prisma-adapter@1.0.12
+```
+
+.env
+```
+DATABASE_URL=
+DIRECT_URL=
+```
+
+.package.json
+```
+"scripts": {
+    "postinstall": "prisma generate"
+  },
+```
+
 ### Deployment
 
 foreach
