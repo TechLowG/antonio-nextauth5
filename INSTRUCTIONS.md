@@ -11,6 +11,17 @@
 ```
 `cd folder`
 
+### Environment Setup
+
+`npx shadcn-ui@latest init`
+```
+√ Which style would you like to use? » New York
+√ Which color would you like to use as base color? » Slate
+√ Would you like to use CSS variables for colors? ... yes
+```
+
+`npx shadcn-ui@latest add button`
+
 ### Deployment
 
 foreach
