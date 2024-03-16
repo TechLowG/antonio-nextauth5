@@ -37,6 +37,10 @@ npx shadcn-ui@latest add card
 npm i react-icons@4.12.0
 ```
 
+### Login Form
+
+`npx shadcn-ui@latest add form input label`
+
 ### Deployment
 
 foreach
