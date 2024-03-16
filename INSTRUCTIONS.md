@@ -41,6 +41,10 @@ npm i react-icons@4.12.0
 
 `npx shadcn-ui@latest add form input label`
 
+### Register Form
+
+...
+
 ### Deployment
 
 foreach
