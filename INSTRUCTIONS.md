@@ -22,6 +22,21 @@
 
 `npx shadcn-ui@latest add button`
 
+### Routing 
+
+...
+
+### Home page
+
+...
+
+### Card Wrapper
+
+```
+npx shadcn-ui@latest add card
+npm i react-icons@4.12.0
+```
+
 ### Deployment
 
 foreach
