@@ -63,6 +63,7 @@ npm i @auth/prisma-adapter@1.0.12
 ```
 DATABASE_URL=
 DIRECT_URL=
+AUTH_SECRET="secret"
 ```
 
 .package.json
@@ -77,6 +78,19 @@ DIRECT_URL=
 ```
 npm i bcrypt@5.1.1 bcryptjs@2.4.3
 npm i -D @types/bcrypt@5.0.2 @types/bcryptjs@2.4.6
+localhost - create an user
+```
+
+### Middleware
+
+Update Guide (v5): https://authjs.dev/guides/upgrade-to-v5
+
+```
+npm i next-auth@beta
+- check http://localhost:3000/api/auth/providers work
+- login with user email & password
+- signOut
+- create new account called test - login
 ```
 
 ### Deployment
