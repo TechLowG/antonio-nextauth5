@@ -72,6 +72,13 @@ DIRECT_URL=
   },
 ```
 
+### Register Functionality
+
+```
+npm i bcrypt@5.1.1 bcryptjs@2.4.3
+npm i -D @types/bcrypt@5.0.2 @types/bcryptjs@2.4.6
+```
+
 ### Deployment
 
 foreach
