@@ -93,6 +93,13 @@ npm i next-auth@beta
 - create new account called test - login
 ```
 
+### Callbacks
+
+```
+npx prisma generate
+npx prisma db push
+```
+
 ### Deployment
 
 foreach
