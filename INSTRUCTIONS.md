@@ -100,6 +100,38 @@ npx prisma generate
 npx prisma db push
 ```
 
+### OAuth
+
+```
+Github: https://github.com/settings/applications/new - 
+- name: "localhost" - url: "http://localhost:3000/" - authCallback: "http://localhost:3000/api/auth/callback/github"
+- copy env to .env
+.
+Google: "https://console.cloud.google.com" - new project -
+- project name: <app-name> - create - select project - search - "api - enabled api & services" 
+- oauth consent screen tab - external - create
+name:               <app-name>
+email:              <email>
+dev contact info:   <email>
+- save and continue x3 - back to dashboard
+- credentials tab - create credentials - "oauth client id" - 
+app type:             web application
+name:                 Web client 1
+auth JS orginals:     http://localhost:3000
+auth redirect URIs:   http://localhost:3000/api/auth/callback/google
+Create
+- copy env to .env
+```
+
+.env
+```
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+
+GOOGLE_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+```
+
 ### Deployment
 
 foreach
