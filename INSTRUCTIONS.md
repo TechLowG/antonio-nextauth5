@@ -206,6 +206,14 @@ studio: change User - role to "ADMIN"
 localhost: login - settings - admin page
 ```
 
+### Settings page
+
+```
+npx shadcn-ui@latest add select switch
+studio: change User - role to "ADMIN"
+localhost: login - settings - settings page
+```
+
 ### Deployment
 
 foreach
