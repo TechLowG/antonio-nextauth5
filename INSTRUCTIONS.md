@@ -183,6 +183,13 @@ localhost: login - validate twofactor email - confirm code - validate auth page
 studio: change User - isTwoFactorEnabled to "false"
 ```
 
+### User Button
+
+```
+npx shadcn-ui@latest add avatar dropdown-menu
+localhost: login - settings /w avatar image - logout
+```
+
 ### Deployment
 
 foreach
