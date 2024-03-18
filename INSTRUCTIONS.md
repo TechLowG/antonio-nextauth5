@@ -190,6 +190,13 @@ npx shadcn-ui@latest add avatar dropdown-menu
 localhost: login - settings /w avatar image - logout
 ```
 
+### Client Server Example
+
+```
+npx shadcn-ui@latest add badge
+localhost: login - settings - server & client page
+```
+
 ### Deployment
 
 foreach
