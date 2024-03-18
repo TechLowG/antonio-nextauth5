@@ -141,7 +141,7 @@ npx prisma db push
 npm i resend@2.1.0 uuid@9.0.1
 npm i -D @types/uuid@9.0.7
 .
-resend: create account - login - add api key to .env
+resend.com: create account - login - add api key to .env
 localhost: create user <real email> - validate confirm email, dont open
 ```
 
@@ -154,6 +154,10 @@ RESEND_API_KEY=
 
 `npm i react-spinners@0.13.8`
 
+```
+localhost: validate confirm email - login
+```
+
 ### Reset Password Token
 
 ```
@@ -161,6 +165,22 @@ npx prisma migrate reset
 npx prisma generate
 npx prisma db push
 localhost: login - forgot password? - send reset email, dont open
+```
+
+### New Password Form 
+
+...
+
+### Two Factor
+
+```
+npx prisma migrate reset
+npx prisma generate
+npx prisma db push
+localhost: create user <real email> - validate confirm email - login
+studio: change User - isTwoFactorEnabled to "true"
+localhost: login - validate twofactor email - confirm code - validate auth page
+studio: change User - isTwoFactorEnabled to "false"
 ```
 
 ### Deployment
