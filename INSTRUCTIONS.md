@@ -150,6 +150,10 @@ localhost: create user <real email> - validate confirm email, dont open
 RESEND_API_KEY=
 ```
 
+### Email Verification
+
+`npm i react-spinners@0.13.8`
+
 ### Deployment
 
 foreach
