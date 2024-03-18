@@ -154,6 +154,15 @@ RESEND_API_KEY=
 
 `npm i react-spinners@0.13.8`
 
+### Reset Password Token
+
+```
+npx prisma migrate reset
+npx prisma generate
+npx prisma db push
+localhost: login - forgot password? - send reset email, dont open
+```
+
 ### Deployment
 
 foreach
