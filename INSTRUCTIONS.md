@@ -132,6 +132,24 @@ GOOGLE_CLIENT_ID=
 GITHUB_CLIENT_SECRET=
 ```
 
+### Resend
+
+```
+npx prisma migrate reset
+npx prisma generate
+npx prisma db push
+npm i resend@2.1.0 uuid@9.0.1
+npm i -D @types/uuid@9.0.7
+.
+resend: create account - login - add api key to .env
+localhost: create user <real email> - validate confirm email, dont open
+```
+
+.env
+```
+RESEND_API_KEY=
+```
+
 ### Deployment
 
 foreach
