@@ -190,11 +190,20 @@ npx shadcn-ui@latest add avatar dropdown-menu
 localhost: login - settings /w avatar image - logout
 ```
 
-### Client Server Example
+### Client Server example
 
 ```
 npx shadcn-ui@latest add badge
+studio: change User - isTwoFactorEnabled to "true"
 localhost: login - settings - server & client page
+```
+
+### Admin example
+
+```
+npx shadcn-ui@latest add sonner
+studio: change User - role to "ADMIN"
+localhost: login - settings - admin page
 ```
 
 ### Deployment
