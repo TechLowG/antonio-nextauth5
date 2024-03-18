@@ -214,7 +214,21 @@ studio: change User - role to "ADMIN"
 localhost: login - settings - settings page
 ```
 
+### Domain
+
+```
+npx shadcn-ui@latest add dialog
+- github and google - create new apps with prod domain & update vercel env
+- vercel - change NEXT_PUBLIC_APP_URL to prod domain
+```
+
+.env
+```
+NEXT_PUBLIC_APP_URL=
+```
+
 ### Deployment
+
 
 foreach
 ```
